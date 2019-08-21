@@ -9,6 +9,8 @@ int main()
 
     x=40;
     y=20;
+    
+    // if condition to find the greater number 
     if (x>y){
         cout << "if condition . x is greater than y " <<endl;
 
@@ -17,7 +19,7 @@ int main()
 
     }
 
-
+    // use for loops to find the geater number 
     for (;x<y;x=y){
         cout << "for condition, Y is greater than x" <<endl;
     }
@@ -25,8 +27,5 @@ int main()
     for (;y<x;x=y){
     cout << "for condition condition, X is greater than Y" <<endl;
     }
-
-
-
     return 0;
 }
